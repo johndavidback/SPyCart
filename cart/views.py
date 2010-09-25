@@ -4,4 +4,8 @@ from django.shortcuts import render_to_response
 
 def index(request):
 
-	return render_to_response('cart/index.html')	
+	return render_to_response('cart/index.html')
+	
+def catalog(request):
+
+	return render_to_response('cart/catalog.html')
