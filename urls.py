@@ -9,6 +9,7 @@ urlpatterns = patterns('',
     # (r'^SPyCart/', include('SPyCart.foo.urls')),
     
     (r'^$', 'SPyCart.cart.views.index'),
+    (r'^catalog/$', 'SPyCart.cart.views.catalog'),
 
     # Uncomment the admin/doc line below and add 'django.contrib.admindocs' 
     # to INSTALLED_APPS to enable admin documentation:
