@@ -1,3 +1,12 @@
-Hey, this is me just trying to be smart.
+Okay, this is meant to be a functioning cart in Python / Django.
 
-I hope it works.
+Meaning, it's not just some class you download and have to figure out.
+
+With the installation instructions you should be able to download the
+source, set up your site (provided you have Django installed), sync
+your db, and get rockin and rollin.  How does that sound?
+
+Okay, it's a little ambitious for a weekend project, but it's a good
+first git thing, so it's whatever.
+
+-jdb
