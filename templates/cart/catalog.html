@@ -3,9 +3,9 @@
 {% block content %}
 
 <ul>
-	<li>Item 1</li>
-	<li>Item 2</li>
-	<li>Item C</li>
+{% for p in products %}
+	<li><a href="/product/{{ p.id }}/">{{ p.name }}</a></li>
+{% endfor %}
 </ul>
 
 {% endblock %}

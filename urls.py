@@ -10,6 +10,7 @@ urlpatterns = patterns('',
     
     (r'^$', 'SPyCart.cart.views.index'),
     (r'^catalog/$', 'SPyCart.cart.views.catalog'),
+    (r'^product/(?P<product_id>\d+)/$', 'SPyCart.cart.views.product'),
 
     # Uncomment the admin/doc line below and add 'django.contrib.admindocs' 
     # to INSTALLED_APPS to enable admin documentation:

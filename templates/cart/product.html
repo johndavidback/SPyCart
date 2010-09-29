@@ -1,0 +1,17 @@
+{% extends "cart/layout.html" %}
+
+{% block content %}
+
+<h3>{{ p.name }}</h3>
+<strong>Description: </strong><em>{{ p.description }}</em><br>
+<strong>Price: </strong>${{ p.price }}<br>
+<strong>SKU: </strong>{{ p.sku }}<br>
+<br>
+<form method="post" action="/cart/add/">
+<input type="hidden" value="{{ p.id }}" name="product_id">
+<input type="hidden" value="{{ p.price }}" name="price">
+Qty: <input type="text" name="qty" size="5" maxlength="3" placeholder="1">
+<input type="submit" value="Add to Cart">
+</form>
+
+{% endblock %}
